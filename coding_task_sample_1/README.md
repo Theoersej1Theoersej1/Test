@@ -6,7 +6,7 @@
 | `Task2_sample1_Asger_coded.xlsx` | **Task II**: de 50 events kodet med de 32 action-koder. Kolonnerne A–D er uændrede. Nye kolonner: `codes`, `code_labels`, `secondary_codes_for_review`, ordret `evidence`, `justification` og `flags`. Derudover arket `code_matrix` (0/1 pr. kode) og `code_key` (kodeliste og fordeling) |
 
 ## Metode og kvalitetssikring
-- **Ordret gengivelse:** Alle citatfelter i Task I består udelukkende af ordret kildetekst. Flere passager er adskilt med ` // `, som i jeres egen Task II-fil. Hvert eneste segment er maskinelt tjekket mod artikelteksten med 0 afvigelser. Kildens skrivemåde (`SOLDIERs`, `protesters ,`) er bevaret, men PDF'ens orddelingsbindestreger ved linjeskift er fjernet.
+- **Ordret gengivelse:** Alle citatfelter i Task I består udelukkende af ordret kildetekst. Flere passager er adskilt med ` / `. Hvert eneste segment er maskinelt tjekket mod artikelteksten med 0 afvigelser. Kildens skrivemåde (`SOLDIERs`, `protesters ,`) er bevaret, men PDF'ens orddelingsbindestreger ved linjeskift er fjernet.
 - Alle belægscitater i Task II er tilsvarende tjekket ordret mod `action_description` i regnearket med 0 afvigelser.
 - **Én række pr. aktørgruppe og pr. hændelse:** Militær og politi i samme sætning giver to rækker (artikel 7). Forskellige byer eller dage giver separate rækker (fx artikel 17 og 21).
 - **Ingen inferens:** Felter står tomme, hvor artiklen ikke selv angiver dato eller sted. Der er ingen beregnede datoer og ingen kampagnelokationer.
