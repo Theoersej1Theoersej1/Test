@@ -3,6 +3,7 @@
 | Fil | Indhold |
 |---|---|
 | `Task1_sample1_Asger_extraction.xlsx` | **Task I**: 47 disloyalitets-events fra de 25 artikler. Ét ark med kun artikelnummer og de fem felter (actor / action / date / location / confidence), ordret |
+| `Task2_sample1_Asger_answer.xlsx` | **Task II – svar**: de oprindelige kolonner plus kolonnen `codes` (koderne for hvert event) |
 | `Task2_sample1_Asger_coded.xlsx` | **Task II**: de 50 events kodet med de 32 action-koder. Kolonnerne A–D er uændrede. Nye kolonner: `codes`, `code_labels`, `secondary_codes_for_review`, ordret `evidence`, `justification` og `flags`. Derudover arket `code_matrix` (0/1 pr. kode) og `code_key` (kodeliste og fordeling) |
 
 ## Metode og kvalitetssikring
