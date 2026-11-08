@@ -2,7 +2,7 @@
 
 | Fil | Indhold |
 |---|---|
-| `Task1_sample1_Asger_extraction.xlsx` | **Task I**: 47 disloyalitets-events fra de 25 artikler (Actor / Action / Date / Location / Confidence, ordret) + ark med 23 fravalgte kandidater og deres begrundelse + konventioner |
+| `Task1_sample1_Asger_extraction.xlsx` | **Task I**: 47 disloyalitets-events fra de 25 artikler. Ét ark med kun artikelnummer og de fem felter (actor / action / date / location / confidence), ordret |
 | `Task2_sample1_Asger_coded.xlsx` | **Task II**: de 50 events kodet med de 32 action-koder. Kolonnerne A–D er uændrede. Nye kolonner: `codes`, `code_labels`, `secondary_codes_for_review`, ordret `evidence`, `justification` og `flags`. Derudover arket `code_matrix` (0/1 pr. kode) og `code_key` (kodeliste og fordeling) |
 
 ## Metode og kvalitetssikring
@@ -12,7 +12,8 @@
 - **Ingen inferens:** Felter står tomme, hvor artiklen ikke selv angiver dato eller sted. Der er ingen beregnede datoer og ingen kampagnelokationer.
 - **Task II:** Kolonnen `codes` er svaret, dvs. de koder beskrivelsen direkte understøtter. Kolonnen `secondary_codes_for_review` er *ikke* en del af svaret. Den viser forsvarlige alternativer, så en reviewer kan tage stilling.
 
-## Fund der bør reviewes (markeret med gult i `flags`)
+## Fund der bør reviewes
+Task I-arket indeholder kun de seks kolonner, så punkterne nedenfor er ikke markeret i selve arket. I Task II er de markeret med gult i `flags`.
 1. **Datokonflikter:** Art. 3 siger "Saturday [16 April]", men 16. april 2006 var en søndag. Art. 12 angiver "30 September", men begivenheden var 30. november. Art. 7 har dateline 23. nov., mens kildelinjen siger 22. nov. 2155 GMT.
 2. **Kildetekst med fejl:** Art. 17: "promising to clash with the people" har tydeligvis mistet et "not" ved tekstkonverteringen (jf. "won be used"). Teksten er kopieret ordret og markeret.
 3. **Aktørens berettigelse:** Henri Cesar Sama (art. 23) har her kun en regeringstitel. Art. 21 viser, at han er NAVY LIEUTENANT. Retirerede generaler, der handler politisk (Task II row 278, 1872), og Zakharchenko (row 899), der er indenrigsminister i den siddende regering, er også markeret.
